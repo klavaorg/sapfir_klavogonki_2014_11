@@ -1,0 +1,30 @@
+.container
+	width: 1380px
+	min-width: 1380px
+	max-width: 1380px
+.flex-container
+	display: flex
+	.left
+		flex: 1
+		height: 100vh
+	.center
+		flex: 0 0 740px
+		width: 740px
+		margin: 0 30px
+		iframe
+			width: 100%
+			height: 100vh
+			display: block
+	.right
+		flex: 1
+		height: 100vh
+		.table
+			tr th:first-child
+				width: 35px
+			tr th:last-child
+				width: 50px
+	.scroll
+		overflow-y: auto
+		overflow-x: hidden
+		max-height: 100vh
+		height: 100vh
